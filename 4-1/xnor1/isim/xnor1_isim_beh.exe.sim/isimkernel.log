@@ -1,0 +1,28 @@
+Command line:
+   xnor1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  8390
+
+Fri Nov 05 13:17:26 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5153.87 Meg
+
+ Total Signals          : 17
+ Total Nets             : 17
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 7
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 97
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5153.87 Meg
+
+Fri Nov 05 13:17:45 2021
+

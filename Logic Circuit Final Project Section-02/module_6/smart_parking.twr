@@ -1,0 +1,331 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml smart_parking.twx smart_parking.ncd -o smart_parking.twr
+smart_parking.pcf
+
+Design file:              smart_parking.ncd
+Physical constraint file: smart_parking.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock entry
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+entry              |         |         |    0.495|    0.495|
+parking_capacity<0>|         |         |    1.533|    1.533|
+parking_capacity<1>|         |         |    1.329|    1.329|
+parking_capacity<2>|         |         |    1.525|    1.525|
+parking_capacity<3>|         |         |    1.350|    1.350|
+parking_capacity<4>|         |         |    0.916|    0.916|
+parking_capacity<5>|         |         |    0.771|    0.771|
+parking_capacity<6>|         |         |    0.897|    0.897|
+parking_capacity<7>|         |         |    1.065|    1.065|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<0>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+entry              |         |         |    1.104|    1.104|
+parking_capacity<0>|         |         |    2.142|    2.142|
+parking_capacity<1>|         |         |    1.938|    1.938|
+parking_capacity<2>|         |         |    2.134|    2.134|
+parking_capacity<3>|         |         |    1.959|    1.959|
+parking_capacity<4>|         |         |    1.525|    1.525|
+parking_capacity<5>|         |         |    1.380|    1.380|
+parking_capacity<6>|         |         |    1.506|    1.506|
+parking_capacity<7>|         |         |    1.674|    1.674|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<1>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+entry              |         |         |    1.090|    1.090|
+parking_capacity<0>|         |         |    2.128|    2.128|
+parking_capacity<1>|         |         |    1.924|    1.924|
+parking_capacity<2>|         |         |    2.120|    2.120|
+parking_capacity<3>|         |         |    1.945|    1.945|
+parking_capacity<4>|         |         |    1.511|    1.511|
+parking_capacity<5>|         |         |    1.366|    1.366|
+parking_capacity<6>|         |         |    1.492|    1.492|
+parking_capacity<7>|         |         |    1.660|    1.660|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<2>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+entry              |         |         |    0.951|    0.951|
+parking_capacity<0>|         |         |    1.989|    1.989|
+parking_capacity<1>|         |         |    1.785|    1.785|
+parking_capacity<2>|         |         |    1.981|    1.981|
+parking_capacity<3>|         |         |    1.806|    1.806|
+parking_capacity<4>|         |         |    1.372|    1.372|
+parking_capacity<5>|         |         |    1.227|    1.227|
+parking_capacity<6>|         |         |    1.353|    1.353|
+parking_capacity<7>|         |         |    1.521|    1.521|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<3>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+entry              |         |         |    1.553|    1.553|
+parking_capacity<0>|         |         |    2.591|    2.591|
+parking_capacity<1>|         |         |    2.387|    2.387|
+parking_capacity<2>|         |         |    2.583|    2.583|
+parking_capacity<3>|         |         |    2.408|    2.408|
+parking_capacity<4>|         |         |    1.974|    1.974|
+parking_capacity<5>|         |         |    1.829|    1.829|
+parking_capacity<6>|         |         |    1.955|    1.955|
+parking_capacity<7>|         |         |    2.123|    2.123|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<4>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+entry              |         |         |    1.696|    1.696|
+parking_capacity<0>|         |         |    2.734|    2.734|
+parking_capacity<1>|         |         |    2.530|    2.530|
+parking_capacity<2>|         |         |    2.726|    2.726|
+parking_capacity<3>|         |         |    2.551|    2.551|
+parking_capacity<4>|         |         |    2.117|    2.117|
+parking_capacity<5>|         |         |    1.972|    1.972|
+parking_capacity<6>|         |         |    2.098|    2.098|
+parking_capacity<7>|         |         |    2.266|    2.266|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<5>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+entry              |         |         |    1.475|    1.475|
+parking_capacity<0>|         |         |    2.513|    2.513|
+parking_capacity<1>|         |         |    2.309|    2.309|
+parking_capacity<2>|         |         |    2.505|    2.505|
+parking_capacity<3>|         |         |    2.330|    2.330|
+parking_capacity<4>|         |         |    1.896|    1.896|
+parking_capacity<5>|         |         |    1.751|    1.751|
+parking_capacity<6>|         |         |    1.877|    1.877|
+parking_capacity<7>|         |         |    2.045|    2.045|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<6>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+entry              |         |         |    1.528|    1.528|
+parking_capacity<0>|         |         |    2.566|    2.566|
+parking_capacity<1>|         |         |    2.362|    2.362|
+parking_capacity<2>|         |         |    2.558|    2.558|
+parking_capacity<3>|         |         |    2.383|    2.383|
+parking_capacity<4>|         |         |    1.949|    1.949|
+parking_capacity<5>|         |         |    1.804|    1.804|
+parking_capacity<6>|         |         |    1.930|    1.930|
+parking_capacity<7>|         |         |    2.098|    2.098|
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock parking_capacity<7>
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+entry              |         |         |    1.187|    1.187|
+parking_capacity<0>|         |         |    2.225|    2.225|
+parking_capacity<1>|         |         |    2.021|    2.021|
+parking_capacity<2>|         |         |    2.217|    2.217|
+parking_capacity<3>|         |         |    2.042|    2.042|
+parking_capacity<4>|         |         |    1.608|    1.608|
+parking_capacity<5>|         |         |    1.463|    1.463|
+parking_capacity<6>|         |         |    1.589|    1.589|
+parking_capacity<7>|         |         |    1.757|    1.757|
+-------------------+---------+---------+---------+---------+
+
+Pad to Pad
+-------------------+---------------+---------+
+Source Pad         |Destination Pad|  Delay  |
+-------------------+---------------+---------+
+parking_capacity<1>|empty<0>       |    6.492|
+parking_capacity<1>|empty<1>       |    6.209|
+parking_capacity<1>|empty<2>       |    6.425|
+parking_capacity<1>|empty<3>       |    6.270|
+parking_capacity<1>|new_capacity<1>|    4.659|
+parking_capacity<1>|parked<0>      |    6.591|
+parking_capacity<1>|parked<1>      |    6.445|
+parking_capacity<1>|parked<2>      |    5.978|
+parking_capacity<1>|parked<3>      |    6.185|
+parking_capacity<2>|empty<0>       |    6.643|
+parking_capacity<2>|empty<1>       |    6.360|
+parking_capacity<2>|empty<2>       |    6.576|
+parking_capacity<2>|empty<3>       |    6.414|
+parking_capacity<2>|new_capacity<2>|    4.896|
+parking_capacity<2>|parked<0>      |    6.742|
+parking_capacity<2>|parked<1>      |    6.596|
+parking_capacity<2>|parked<2>      |    6.129|
+parking_capacity<2>|parked<3>      |    6.093|
+parking_capacity<3>|empty<0>       |    6.417|
+parking_capacity<3>|empty<1>       |    6.134|
+parking_capacity<3>|empty<2>       |    6.350|
+parking_capacity<3>|empty<3>       |    6.203|
+parking_capacity<3>|new_capacity<3>|    4.876|
+parking_capacity<3>|parked<0>      |    6.516|
+parking_capacity<3>|parked<1>      |    6.370|
+parking_capacity<3>|parked<2>      |    5.903|
+parking_capacity<3>|parked<3>      |    6.056|
+parking_capacity<4>|empty<0>       |    6.316|
+parking_capacity<4>|empty<1>       |    6.033|
+parking_capacity<4>|empty<2>       |    6.249|
+parking_capacity<4>|empty<3>       |    6.114|
+parking_capacity<4>|new_capacity<4>|    5.294|
+parking_capacity<4>|parked<0>      |    6.415|
+parking_capacity<4>|parked<1>      |    6.269|
+parking_capacity<4>|parked<2>      |    5.897|
+parking_capacity<4>|parked<3>      |    6.251|
+parking_capacity<5>|empty<0>       |    5.690|
+parking_capacity<5>|empty<1>       |    5.705|
+parking_capacity<5>|empty<2>       |    5.607|
+parking_capacity<5>|empty<3>       |    5.389|
+parking_capacity<5>|new_capacity<5>|    4.866|
+parking_capacity<5>|parked<0>      |    5.789|
+parking_capacity<5>|parked<1>      |    5.937|
+parking_capacity<5>|parked<2>      |    5.644|
+parking_capacity<5>|parked<3>      |    5.508|
+parking_capacity<6>|empty<0>       |    5.918|
+parking_capacity<6>|empty<1>       |    5.773|
+parking_capacity<6>|empty<2>       |    5.840|
+parking_capacity<6>|empty<3>       |    5.626|
+parking_capacity<6>|new_capacity<6>|    5.214|
+parking_capacity<6>|parked<0>      |    6.017|
+parking_capacity<6>|parked<1>      |    6.019|
+parking_capacity<6>|parked<2>      |    5.210|
+parking_capacity<6>|parked<3>      |    5.525|
+parking_capacity<7>|empty<0>       |    6.268|
+parking_capacity<7>|empty<1>       |    5.656|
+parking_capacity<7>|empty<2>       |    6.195|
+parking_capacity<7>|empty<3>       |    5.488|
+parking_capacity<7>|new_capacity<7>|    5.637|
+parking_capacity<7>|parked<0>      |    6.367|
+parking_capacity<7>|parked<1>      |    5.896|
+parking_capacity<7>|parked<2>      |    5.230|
+parking_capacity<7>|parked<3>      |    5.433|
+time_in<0>         |time_total<0>  |    5.961|
+time_in<0>         |time_total<1>  |    5.766|
+time_in<0>         |time_total<2>  |    5.617|
+time_in<0>         |time_total<3>  |    6.639|
+time_in<0>         |time_total<4>  |    6.345|
+time_in<0>         |time_total<5>  |    7.177|
+time_in<0>         |time_total<6>  |    7.225|
+time_in<0>         |time_total<7>  |    7.559|
+time_in<1>         |time_total<1>  |    5.955|
+time_in<1>         |time_total<2>  |    5.663|
+time_in<1>         |time_total<3>  |    6.702|
+time_in<1>         |time_total<4>  |    6.408|
+time_in<1>         |time_total<5>  |    7.240|
+time_in<1>         |time_total<6>  |    7.288|
+time_in<1>         |time_total<7>  |    7.712|
+time_in<2>         |time_total<2>  |    5.510|
+time_in<2>         |time_total<3>  |    6.342|
+time_in<2>         |time_total<4>  |    6.048|
+time_in<2>         |time_total<5>  |    6.880|
+time_in<2>         |time_total<6>  |    6.928|
+time_in<2>         |time_total<7>  |    7.360|
+time_in<3>         |time_total<3>  |    5.390|
+time_in<3>         |time_total<4>  |    5.634|
+time_in<3>         |time_total<5>  |    6.429|
+time_in<3>         |time_total<6>  |    6.477|
+time_in<3>         |time_total<7>  |    7.273|
+time_in<4>         |time_total<4>  |    5.222|
+time_in<4>         |time_total<5>  |    6.297|
+time_in<4>         |time_total<6>  |    6.345|
+time_in<4>         |time_total<7>  |    7.083|
+time_in<5>         |time_total<5>  |    5.712|
+time_in<5>         |time_total<6>  |    5.538|
+time_in<5>         |time_total<7>  |    6.775|
+time_in<6>         |time_total<6>  |    5.199|
+time_in<6>         |time_total<7>  |    6.521|
+time_in<7>         |time_total<7>  |    6.260|
+time_out<0>        |time_total<0>  |    5.668|
+time_out<0>        |time_total<1>  |    5.485|
+time_out<0>        |time_total<2>  |    5.142|
+time_out<0>        |time_total<3>  |    6.102|
+time_out<0>        |time_total<4>  |    6.170|
+time_out<0>        |time_total<5>  |    6.662|
+time_out<0>        |time_total<6>  |    6.710|
+time_out<0>        |time_total<7>  |    7.514|
+time_out<1>        |time_total<1>  |    5.257|
+time_out<1>        |time_total<2>  |    5.399|
+time_out<1>        |time_total<3>  |    5.985|
+time_out<1>        |time_total<4>  |    6.009|
+time_out<1>        |time_total<5>  |    6.523|
+time_out<1>        |time_total<6>  |    6.571|
+time_out<1>        |time_total<7>  |    7.353|
+time_out<2>        |time_total<2>  |    5.384|
+time_out<2>        |time_total<3>  |    5.956|
+time_out<2>        |time_total<4>  |    5.984|
+time_out<2>        |time_total<5>  |    6.494|
+time_out<2>        |time_total<6>  |    6.542|
+time_out<2>        |time_total<7>  |    7.328|
+time_out<3>        |time_total<3>  |    5.897|
+time_out<3>        |time_total<4>  |    5.306|
+time_out<3>        |time_total<5>  |    6.025|
+time_out<3>        |time_total<6>  |    6.175|
+time_out<3>        |time_total<7>  |    7.086|
+time_out<4>        |time_total<4>  |    5.537|
+time_out<4>        |time_total<5>  |    6.281|
+time_out<4>        |time_total<6>  |    6.439|
+time_out<4>        |time_total<7>  |    7.350|
+time_out<5>        |time_total<5>  |    5.696|
+time_out<5>        |time_total<6>  |    5.237|
+time_out<5>        |time_total<7>  |    6.767|
+time_out<6>        |time_total<6>  |    5.427|
+time_out<6>        |time_total<7>  |    6.416|
+time_out<7>        |time_total<7>  |    6.512|
+-------------------+---------------+---------+
+
+
+Analysis completed Sun Jan 23 12:45:23 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4997 MB
+
+
+

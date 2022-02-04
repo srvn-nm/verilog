@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/Desktop/logicLab/4-1/xnor1/xnor1.xst" -ofn "C:/Users/ASUS.PIESC/Desktop/logicLab/4-1/xnor1/xnor1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 xnor1.ngc xnor1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xnor1_map.ncd xnor1.ngd xnor1.pcf 
+par -w -intstyle ise -ol high -mt off xnor1_map.ncd xnor1.ncd xnor1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml xnor1.twx xnor1.ncd -o xnor1.twr xnor1.pcf 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/Desktop/logicLab/4-1/xnor1/xnor1.xst" -ofn "C:/Users/ASUS.PIESC/Desktop/logicLab/4-1/xnor1/xnor1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 xnor1.ngc xnor1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xnor1_map.ncd xnor1.ngd xnor1.pcf 
+par -w -intstyle ise -ol high -mt off xnor1_map.ncd xnor1.ncd xnor1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml xnor1.twx xnor1.ncd -o xnor1.twr xnor1.pcf 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/Desktop/logicLab/4-1/xnor1/xnor1.xst" -ofn "C:/Users/ASUS.PIESC/Desktop/logicLab/4-1/xnor1/xnor1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 xnor1.ngc xnor1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xnor1_map.ncd xnor1.ngd xnor1.pcf 
+par -w -intstyle ise -ol high -mt off xnor1_map.ncd xnor1.ncd xnor1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml xnor1.twx xnor1.ncd -o xnor1.twr xnor1.pcf 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/Desktop/logicLab/4-1/xnor1/xnor1.xst" -ofn "C:/Users/ASUS.PIESC/Desktop/logicLab/4-1/xnor1/xnor1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 xnor1.ngc xnor1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xnor1_map.ncd xnor1.ngd xnor1.pcf 
+par -w -intstyle ise -ol high -mt off xnor1_map.ncd xnor1.ncd xnor1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml xnor1.twx xnor1.ncd -o xnor1.twr xnor1.pcf 

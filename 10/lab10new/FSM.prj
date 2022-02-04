@@ -1,0 +1,3 @@
+verilog work "xnorComparator4bit.v"
+verilog work "DFF.v"
+verilog work "FSM.v"

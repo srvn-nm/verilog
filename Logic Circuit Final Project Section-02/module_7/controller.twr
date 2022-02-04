@@ -1,0 +1,277 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml controller.twx controller.ncd -o controller.twr
+controller.pcf
+
+Design file:              controller.ncd
+Physical constraint file: controller.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+TimeData<0> |   -0.631(R)|      FAST  |    2.605(R)|      SLOW  |clock_BUFGP       |   0.000|
+TimeData<1> |   -0.581(R)|      FAST  |    2.615(R)|      SLOW  |clock_BUFGP       |   0.000|
+TimeData<2> |   -0.555(R)|      FAST  |    2.593(R)|      SLOW  |clock_BUFGP       |   0.000|
+TimeData<3> |   -0.632(R)|      FAST  |    2.614(R)|      SLOW  |clock_BUFGP       |   0.000|
+TimeData<4> |   -0.436(R)|      FAST  |    2.475(R)|      SLOW  |clock_BUFGP       |   0.000|
+TimeData<5> |   -0.612(R)|      FAST  |    2.637(R)|      SLOW  |clock_BUFGP       |   0.000|
+TimeData<6> |   -0.530(R)|      FAST  |    2.616(R)|      SLOW  |clock_BUFGP       |   0.000|
+TimeData<7> |   -0.360(R)|      FAST  |    2.622(R)|      SLOW  |clock_BUFGP       |   0.000|
+reset       |    0.004(R)|      FAST  |    2.351(R)|      SLOW  |clock_BUFGP       |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock system_token<0> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                       | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                      | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+data_P<0>   |         6.764(F)|      SLOW  |         3.257(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<1>   |         6.714(F)|      SLOW  |         3.266(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<2>   |         6.597(F)|      SLOW  |         3.209(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<3>   |         6.485(F)|      SLOW  |         3.158(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<4>   |         6.493(F)|      SLOW  |         3.154(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<5>   |         6.378(F)|      SLOW  |         3.099(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<6>   |         6.376(F)|      SLOW  |         3.086(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<7>   |         6.268(F)|      SLOW  |         3.038(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<0>   |         5.776(F)|      SLOW  |         2.764(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<1>   |         5.653(F)|      SLOW  |         2.701(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<2>   |         5.995(F)|      SLOW  |         2.885(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<3>   |         5.427(F)|      SLOW  |         2.570(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<4>   |         5.283(F)|      SLOW  |         2.467(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<5>   |         5.305(F)|      SLOW  |         2.498(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<6>   |         5.151(F)|      SLOW  |         2.384(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<7>   |         5.151(F)|      SLOW  |         2.392(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+
+Clock system_token<1> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                       | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                      | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+data_P<0>   |         6.994(F)|      SLOW  |         3.372(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<1>   |         6.944(F)|      SLOW  |         3.381(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<2>   |         6.827(F)|      SLOW  |         3.324(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<3>   |         6.715(F)|      SLOW  |         3.273(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<4>   |         6.723(F)|      SLOW  |         3.269(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<5>   |         6.608(F)|      SLOW  |         3.214(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<6>   |         6.606(F)|      SLOW  |         3.201(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<7>   |         6.498(F)|      SLOW  |         3.153(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<0>   |         6.006(F)|      SLOW  |         2.879(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<1>   |         5.883(F)|      SLOW  |         2.816(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<2>   |         6.225(F)|      SLOW  |         3.000(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<3>   |         5.657(F)|      SLOW  |         2.685(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<4>   |         5.513(F)|      SLOW  |         2.582(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<5>   |         5.535(F)|      SLOW  |         2.613(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<6>   |         5.381(F)|      SLOW  |         2.499(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<7>   |         5.381(F)|      SLOW  |         2.507(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+
+Clock system_token<2> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                       | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                      | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+data_P<0>   |         6.652(F)|      SLOW  |         3.206(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<1>   |         6.602(F)|      SLOW  |         3.215(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<2>   |         6.485(F)|      SLOW  |         3.158(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<3>   |         6.373(F)|      SLOW  |         3.107(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<4>   |         6.381(F)|      SLOW  |         3.103(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<5>   |         6.266(F)|      SLOW  |         3.048(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<6>   |         6.264(F)|      SLOW  |         3.035(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<7>   |         6.156(F)|      SLOW  |         2.987(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<0>   |         5.664(F)|      SLOW  |         2.713(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<1>   |         5.541(F)|      SLOW  |         2.650(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<2>   |         5.883(F)|      SLOW  |         2.834(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<3>   |         5.315(F)|      SLOW  |         2.519(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<4>   |         5.171(F)|      SLOW  |         2.416(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<5>   |         5.193(F)|      SLOW  |         2.447(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<6>   |         5.039(F)|      SLOW  |         2.333(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<7>   |         5.039(F)|      SLOW  |         2.341(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+
+Clock user_token<0> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                       | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                      | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+data_P<0>   |         6.793(F)|      SLOW  |         3.254(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<1>   |         6.743(F)|      SLOW  |         3.263(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<2>   |         6.626(F)|      SLOW  |         3.206(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<3>   |         6.514(F)|      SLOW  |         3.155(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<4>   |         6.522(F)|      SLOW  |         3.151(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<5>   |         6.407(F)|      SLOW  |         3.096(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<6>   |         6.405(F)|      SLOW  |         3.083(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<7>   |         6.297(F)|      SLOW  |         3.035(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<0>   |         5.805(F)|      SLOW  |         2.761(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<1>   |         5.682(F)|      SLOW  |         2.698(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<2>   |         6.024(F)|      SLOW  |         2.882(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<3>   |         5.456(F)|      SLOW  |         2.567(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<4>   |         5.312(F)|      SLOW  |         2.464(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<5>   |         5.334(F)|      SLOW  |         2.495(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<6>   |         5.180(F)|      SLOW  |         2.381(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<7>   |         5.180(F)|      SLOW  |         2.389(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+
+Clock user_token<1> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                       | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                      | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+data_P<0>   |         6.515(F)|      SLOW  |         3.150(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<1>   |         6.465(F)|      SLOW  |         3.159(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<2>   |         6.348(F)|      SLOW  |         3.102(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<3>   |         6.236(F)|      SLOW  |         3.051(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<4>   |         6.244(F)|      SLOW  |         3.047(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<5>   |         6.129(F)|      SLOW  |         2.992(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<6>   |         6.127(F)|      SLOW  |         2.979(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<7>   |         6.019(F)|      SLOW  |         2.931(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<0>   |         5.527(F)|      SLOW  |         2.657(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<1>   |         5.404(F)|      SLOW  |         2.594(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<2>   |         5.746(F)|      SLOW  |         2.778(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<3>   |         5.178(F)|      SLOW  |         2.463(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<4>   |         5.034(F)|      SLOW  |         2.360(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<5>   |         5.056(F)|      SLOW  |         2.391(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<6>   |         4.902(F)|      SLOW  |         2.277(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<7>   |         4.902(F)|      SLOW  |         2.285(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+
+Clock user_token<2> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                       | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                      | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+data_P<0>   |         6.795(F)|      SLOW  |         3.259(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<1>   |         6.745(F)|      SLOW  |         3.268(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<2>   |         6.628(F)|      SLOW  |         3.211(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<3>   |         6.516(F)|      SLOW  |         3.160(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<4>   |         6.524(F)|      SLOW  |         3.156(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<5>   |         6.409(F)|      SLOW  |         3.101(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<6>   |         6.407(F)|      SLOW  |         3.088(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_P<7>   |         6.299(F)|      SLOW  |         3.040(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<0>   |         5.807(F)|      SLOW  |         2.766(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<1>   |         5.684(F)|      SLOW  |         2.703(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<2>   |         6.026(F)|      SLOW  |         2.887(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<3>   |         5.458(F)|      SLOW  |         2.572(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<4>   |         5.314(F)|      SLOW  |         2.469(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<5>   |         5.336(F)|      SLOW  |         2.500(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<6>   |         5.182(F)|      SLOW  |         2.386(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+data_Q<7>   |         5.182(F)|      SLOW  |         2.394(F)|      FAST  |system_token[0]_system_token[2]_AND_5_o|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+confirm        |         |    0.234|         |         |
+request        |         |    0.234|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock confirm
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    3.412|         |
+confirm        |         |         |    0.173|    0.173|
+request        |         |         |    0.673|    0.673|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock request
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    3.412|         |
+confirm        |         |         |   -0.007|   -0.007|
+request        |         |         |    0.336|    0.336|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock system_token<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    3.165|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock system_token<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    3.165|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock system_token<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    3.165|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock user_token<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    3.165|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock user_token<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    3.165|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock user_token<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    3.165|         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon Jan 24 01:37:00 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 5003 MB
+
+
+

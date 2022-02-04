@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="296" delta="old" >"C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 43: case condition never applies due to comparison with x or z
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="296" delta="old" >"C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 44: case condition never applies due to comparison with x or z
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="296" delta="old" >"C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 45: case condition never applies due to comparison with x or z
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="296" delta="old" >"C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 46: case condition never applies due to comparison with x or z
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="296" delta="old" >"C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 47: case condition never applies due to comparison with x or z
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="296" delta="old" >"C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 48: case condition never applies due to comparison with x or z
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="296" delta="old" >"C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 49: case condition never applies due to comparison with x or z
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">park_number&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">park_number_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">p</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">e</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">entry_park</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">park_number_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">park_space_number</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+</messages>
+

@@ -1,0 +1,297 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: entry_park.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "entry_park.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "entry_park"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : entry_park
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" into library work
+Parsing module <park_space_number>.
+Analyzing Verilog file "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\entry_checker.v" into library work
+Parsing module <entry_checker>.
+Analyzing Verilog file "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\entry_park.v" into library work
+Parsing module <entry_park>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <entry_park>.
+
+Elaborating module <entry_checker>.
+
+Elaborating module <park_space_number>.
+WARNING:HDLCompiler:296 - "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 43: case condition never applies due to comparison with x or z
+WARNING:HDLCompiler:296 - "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 44: case condition never applies due to comparison with x or z
+WARNING:HDLCompiler:296 - "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 45: case condition never applies due to comparison with x or z
+WARNING:HDLCompiler:296 - "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 46: case condition never applies due to comparison with x or z
+WARNING:HDLCompiler:296 - "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 47: case condition never applies due to comparison with x or z
+WARNING:HDLCompiler:296 - "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 48: case condition never applies due to comparison with x or z
+WARNING:HDLCompiler:296 - "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v" Line 49: case condition never applies due to comparison with x or z
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <entry_park>.
+    Related source file is "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\entry_park.v".
+    Summary:
+	no macro.
+Unit <entry_park> synthesized.
+
+Synthesizing Unit <entry_checker>.
+    Related source file is "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\entry_checker.v".
+    Summary:
+	no macro.
+Unit <entry_checker> synthesized.
+
+Synthesizing Unit <park_space_number>.
+    Related source file is "C:\Users\ASUS.PIESC\Desktop\Logic Circuit Final Project Section-01\module_1\park_space_number.v".
+WARNING:Xst:737 - Found 1-bit latch for signal <park_number<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 Latch(s).
+Unit <park_space_number> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <park_number_1> (without init value) has a constant value of 0 in block <p>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1290 - Hierarchical block <e> is unconnected in block <entry_park>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <park_number_1> (without init value) has a constant value of 0 in block <park_space_number>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <entry_park> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block entry_park, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : entry_park.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1
+#      GND                         : 1
+# IO Buffers                       : 3
+#      OBUF                        : 3
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          12
+ Number of bonded IOBs:                   3  out of    210     1%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.24 secs
+ 
+--> 
+
+Total memory usage is 4616568 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

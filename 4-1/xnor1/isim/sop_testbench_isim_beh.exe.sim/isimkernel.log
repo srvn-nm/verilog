@@ -1,0 +1,28 @@
+Command line:
+   sop_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  12836
+
+Fri Nov 05 13:24:56 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5153.89 Meg
+
+ Total Signals          : 18
+ Total Nets             : 17
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 100
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 4682.03 Meg
+
+Fri Nov 05 13:27:34 2021
+

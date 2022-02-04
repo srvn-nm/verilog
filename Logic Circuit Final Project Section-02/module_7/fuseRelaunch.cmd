@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/ASUS.PIESC/Desktop/Logic Circuit Final Project Section-02/module_7/test_bench_isim_beh.exe" -prj "C:/Users/ASUS.PIESC/Desktop/Logic Circuit Final Project Section-02/module_7/test_bench_beh.prj" "work.test_bench" "work.glbl" 

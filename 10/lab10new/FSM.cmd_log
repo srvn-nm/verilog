@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/Desktop/logicLab/10/lab10new/FSM.xst" -ofn "C:/Users/ASUS.PIESC/Desktop/logicLab/10/lab10new/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/Desktop/logicLab/10/lab10new/FSM.xst" -ofn "C:/Users/ASUS.PIESC/Desktop/logicLab/10/lab10new/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/Desktop/logicLab/10/lab10new/FSM.xst" -ofn "C:/Users/ASUS.PIESC/Desktop/logicLab/10/lab10new/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/Desktop/logicLab/10/lab10new/FSM.xst" -ofn "C:/Users/ASUS.PIESC/Desktop/logicLab/10/lab10new/FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 FSM.ngc FSM.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o FSM_map.ncd FSM.ngd FSM.pcf 
+par -w -intstyle ise -ol high -mt off FSM_map.ncd FSM.ncd FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FSM.twx FSM.ncd -o FSM.twr FSM.pcf 
+xst -intstyle ise -ifn "C:/Users/ASUS.PIESC/Desktop/logicLab/10/lab10new/FSM.xst" -ofn "C:/Users/ASUS.PIESC/Desktop/logicLab/10/lab10new/FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 FSM.ngc FSM.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o FSM_map.ncd FSM.ngd FSM.pcf 
+par -w -intstyle ise -ol high -mt off FSM_map.ncd FSM.ncd FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FSM.twx FSM.ncd -o FSM.twr FSM.pcf 

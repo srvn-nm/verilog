@@ -1,0 +1,5 @@
+verilog isim_temp "xnorComparator4bit.v"
+verilog isim_temp "DFF.v"
+verilog isim_temp "FSM.v"
+verilog isim_temp "testBench.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
